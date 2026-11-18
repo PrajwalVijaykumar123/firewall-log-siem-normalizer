@@ -1,0 +1,3 @@
+# Real Sophos XG Firewall key=value syslog format, benign sample.
+device_name="SFW-EDGE" device_id="SFW-001" timestamp="2026-11-18T09:01:00+0000" log_type="Firewall" log_component="Firewall Rule" log_subtype="Allow" priority="Information" src_ip=10.0.5.30 dst_ip=203.0.113.200 src_port=55100 dst_port=443 protocol="TCP" fw_rule_id="21" message="Packet Allowed"
+device_name="SFW-EDGE" device_id="SFW-001" timestamp="2026-11-18T09:01:30+0000" log_type="Firewall" log_component="Firewall Rule" log_subtype="Allow" priority="Information" src_ip=10.0.5.31 dst_ip=203.0.113.201 src_port=55101 dst_port=80 protocol="TCP" fw_rule_id="22" message="Packet Allowed"

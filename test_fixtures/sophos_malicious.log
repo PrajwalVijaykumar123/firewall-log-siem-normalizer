@@ -1,0 +1,5 @@
+# Real Sophos XG Firewall key=value syslog format. 203.0.113.50 is
+# denied against 10.0.0.20, then the same src->dst pair is allowed
+# 15 minutes later - an allow-after-deny anomaly worth reviewing.
+device_name="SFW-EDGE" device_id="SFW-001" timestamp="2026-11-18T10:05:00+0000" log_type="Firewall" log_component="Firewall Rule" log_subtype="Deny" priority="Information" src_ip=203.0.113.50 dst_ip=10.0.0.20 src_port=55123 dst_port=443 protocol="TCP" fw_rule_id="12" message="Packet Dropped"
+device_name="SFW-EDGE" device_id="SFW-001" timestamp="2026-11-18T10:20:00+0000" log_type="Firewall" log_component="Firewall Rule" log_subtype="Allow" priority="Information" src_ip=203.0.113.50 dst_ip=10.0.0.20 src_port=55199 dst_port=443 protocol="TCP" fw_rule_id="30" message="Packet Allowed"
